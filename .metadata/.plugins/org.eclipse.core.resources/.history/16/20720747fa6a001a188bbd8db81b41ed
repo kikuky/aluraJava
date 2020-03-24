@@ -1,0 +1,11 @@
+package byteBank;
+
+public class criaConta {
+
+	public static void main(String[] args) {
+		
+		new Conta();
+		
+	}
+	
+}

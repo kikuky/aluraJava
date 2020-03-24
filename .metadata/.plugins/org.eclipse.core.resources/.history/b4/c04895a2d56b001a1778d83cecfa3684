@@ -1,0 +1,9 @@
+package byteBankComposto;
+
+public class testaBanco {
+	
+	public static void main(String[] args) {
+		Cliente paulo = new Cliente();
+	}
+
+}
