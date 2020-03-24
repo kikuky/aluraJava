@@ -1,0 +1,10 @@
+
+public class testeFuncionario {
+
+	public static void main(String[] args) {
+		
+		funcionario nico = new funcionario();
+		
+	}
+
+}
