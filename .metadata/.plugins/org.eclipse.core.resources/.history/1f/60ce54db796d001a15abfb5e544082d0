@@ -1,0 +1,16 @@
+
+public class testaGerente {
+
+	public static void main(String[] args) {
+		gerente g1 = new gerente();
+		g1.setNome("Ronaldo");
+		g1.getCpf("222.222.222-22");
+		g1.getSalario(5000);
+		
+		System.out.println(g1.getNome());
+		System.out.println(g1.getCpf());
+		System.out.println(g1.getSalario());
+		System.out.println(g1.getBonificacao());
+	}
+	
+}

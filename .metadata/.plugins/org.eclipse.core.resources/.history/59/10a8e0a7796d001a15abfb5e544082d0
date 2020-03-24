@@ -1,0 +1,9 @@
+
+public class testaGerente {
+
+	public static void main(String[] args) {
+		gerente g1 = new gerente();
+		g1.setNome('Ronaldo');
+	}
+	
+}

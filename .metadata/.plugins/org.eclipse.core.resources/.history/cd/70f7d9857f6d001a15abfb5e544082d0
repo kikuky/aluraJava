@@ -20,9 +20,9 @@ public class gerente extends funcionario { //gerente herda classe
 		}
 		
 	}
-	
+	/*
 	public double getBonificacao() {
-		return super.getBonificacao() + super.getSalario();
-	} 
+		return this.salario;
+	} */
 	
 }

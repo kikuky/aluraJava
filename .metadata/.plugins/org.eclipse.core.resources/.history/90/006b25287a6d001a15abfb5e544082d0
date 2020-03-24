@@ -2,12 +2,7 @@ public class gerente extends funcionario { //gerente herda classe
 											//do funcionario
 	private int senha;
 	
-	public void setSenha(int senha) {
-		this.senha = senha;
-	}
-	
-	
-	public boolean autentica (int senha) {
+	public boolean autentica () {
 		
 		if (this.senha == senha) {
 			
@@ -20,9 +15,9 @@ public class gerente extends funcionario { //gerente herda classe
 		}
 		
 	}
-	
+	/*
 	public double getBonificacao() {
-		return super.getBonificacao() + super.getSalario();
-	} 
+		return this.salario;
+	} */
 	
 }
