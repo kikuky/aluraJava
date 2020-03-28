@@ -1,0 +1,29 @@
+public class gerente extends funcionario { //gerente herda classe
+											//do funcionario
+	private int senha;
+	
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+	
+	
+	public boolean autentica (int senha) {
+		
+		if (this.senha == senha) {
+			
+			return true;
+			
+		} else {
+			
+			return false;
+			
+		}
+		
+	}
+	
+	public double getBonificacao() {
+		sysout("Chamando a bonificação do GERENTE")
+		return super.getBonificacao() + super.getSalario();
+	} 
+	
+}

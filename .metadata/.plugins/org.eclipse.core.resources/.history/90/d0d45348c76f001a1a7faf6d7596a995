@@ -1,0 +1,35 @@
+public class Gerente extends Funcionario implements Autenticavel { //gerente é um funcionario
+											//herda da class funcionario 
+											//e assina o contrato autenticavel
+											//implemente pode ser mais de um
+											// extends nao
+	private int Senha;
+	
+	public double getBonificacao() {
+		System.out.println("Chamando a bonificação do GERENTE");
+		return super.getSalario();
+	}
+
+	@Override
+	public void setSenha(int Senha) {
+		
+		this.Senha = Senha;
+		
+	}
+	
+	@Override
+	public boolean Autentica(int Senha)  {
+		
+		if (this.Senha == Senha) {
+			
+			return true;
+			
+		} else {
+			
+			return false;
+			
+		}
+		
+	}
+		
+	}

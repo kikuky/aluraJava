@@ -1,0 +1,10 @@
+public class admin extends autenticavel {
+	
+	@Override
+	public double getBonificacao() {
+		return 50;
+	}
+
+	
+		
+}

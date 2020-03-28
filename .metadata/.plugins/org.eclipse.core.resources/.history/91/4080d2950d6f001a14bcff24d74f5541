@@ -1,0 +1,24 @@
+public abstract class Autenticavel {
+	
+	private int Senha;
+	
+	public void setSenha(int senha) {
+		this.Senha = senha;
+	}
+	
+	
+	public boolean Autentica (int senha) {
+		
+		if (this.Senha == senha) {
+			
+			return true;
+			
+		} else {
+			
+			return false;
+			
+		}
+		
+	}
+	
+}

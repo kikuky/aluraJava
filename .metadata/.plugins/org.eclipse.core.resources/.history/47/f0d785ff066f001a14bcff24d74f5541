@@ -1,0 +1,8 @@
+public class admin extends funcionario {
+	
+	@Override
+	public double getBonificacao() {
+		return 50;
+	}
+
+}

@@ -1,0 +1,25 @@
+
+public class Cliente implements Autenticavel {
+
+	private Assinatura Ass;
+	
+	public Cliente() {
+		
+		this.Ass = new Assinatura();
+		
+	}
+	
+	@Override
+	public void setSenha(int Senha) {
+		this.Ass.setSenha(Senha);
+		
+	}
+
+	@Override
+	public boolean Autentica(int Senha) {
+		
+		boolean Autenticou = this.Ass.Autentica(Senha);
+		return Autenticou;
+		
+			}
+}

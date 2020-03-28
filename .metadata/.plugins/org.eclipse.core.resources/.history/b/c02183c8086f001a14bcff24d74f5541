@@ -1,0 +1,8 @@
+public class funcionarioAutenticavel extends funcionario{
+
+	@Override
+	public double getBonificacao() {
+		return 0;
+	}
+	
+}

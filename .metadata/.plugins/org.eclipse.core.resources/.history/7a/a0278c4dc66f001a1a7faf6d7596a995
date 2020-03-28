@@ -1,0 +1,26 @@
+
+public class Cliente implements Autenticavel {
+
+	private int Senha;
+	
+	@Override
+	public void setSenha(int Senha) {
+		this.Senha = Senha;
+		
+	}
+
+	@Override
+	public boolean Autentica(int Senha) {
+		
+		if (this.Senha == Senha) {
+			
+			return true;
+			
+		} else {
+			
+			return false;
+			
+		}
+		
+	}
+}

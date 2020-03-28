@@ -1,0 +1,15 @@
+
+public class ContaPoupanca extends Conta {
+
+	public ContaPoupanca (int Agencia, int numero) {
+		
+		super(Agencia, numero);
+		
+	}
+	
+	@Override
+	public void Deposita(double valor) {
+		super.saldo +=valor;
+	}
+	
+}

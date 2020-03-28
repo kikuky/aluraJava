@@ -1,0 +1,23 @@
+public class Gerente extends Funcionario implements Autenticavel { //gerente é um funcionario
+											//herda da class funcionario 
+											//e assina o contrato autenticavel
+	
+	public double getBonificacao() {
+		System.out.println("Chamando a bonificação do GERENTE");
+		return super.getSalario();
+	}
+
+	@Override
+	public void setSenha(int Senha) {
+		
+		this.Senha = Senha;
+		
+	}
+	
+	@Override
+	public boolean Autentica(int Senha) {
+		// TODO Auto-generated method stub
+		return false;
+	} 
+		
+	}

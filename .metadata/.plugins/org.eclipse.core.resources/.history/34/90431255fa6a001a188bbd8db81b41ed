@@ -1,9 +1,0 @@
-public class criaConta {
-
-	public static void main(String[] args) {
-		
-		primeiraConta = new Conta();
-		
-	}
-	
-}

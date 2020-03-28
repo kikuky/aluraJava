@@ -2,4 +2,11 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="byteBank.Conta"/>
+<fullyQualifiedTypeName name="contaCorrente"/>
+<fullyQualifiedTypeName name="contaPoupanca"/>
+<fullyQualifiedTypeName name="sistemaInterno"/>
+<fullyQualifiedTypeName name="funcionarioAutenticavel"/>
+<fullyQualifiedTypeName name="ContaCorrente"/>
+<fullyQualifiedTypeName name="SeguroDeVida"/>
+<fullyQualifiedTypeName name="CalculadorDeImposto"/>
 </qualifiedTypeNameHistroy>

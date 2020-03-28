@@ -1,0 +1,10 @@
+
+public class contaCorrente extends Conta {
+
+	public contaCorrente() {
+		
+		
+		
+	}
+	
+}

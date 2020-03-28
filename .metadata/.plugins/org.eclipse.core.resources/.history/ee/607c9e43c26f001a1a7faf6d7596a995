@@ -1,0 +1,10 @@
+public class Gerente implements Autenticavel { //gerente é um funcionario
+											//herda da class funcionario 
+											//e assina o contrato autenticavel
+	
+	public double getBonificacao() {
+		System.out.println("Chamando a bonificação do GERENTE");
+		return super.getSalario();
+	} 
+	
+}
